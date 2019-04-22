@@ -1,0 +1,44 @@
+{
+  "name": "imba-router",
+  "description": "The official Imba router.",
+  "keywords": [
+    "imba",
+    "router"
+  ],
+  "author": "Sindre Aarsaether",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Sindre Aarsaether",
+      "email": "sindre@identu.no",
+      "url": "http://github.com/somebee/"
+    }
+  ],
+  "scripts": {
+    "test": "bin/imba test/index.imba",
+    "watch": "npx imbac -w -o lib src"
+  },
+  "bugs": "https://github.com/somebee/imba-router/issues",
+  "version": "0.4.0",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/somebee/imba-router/raw/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "directories": {},
+  "main": "./lib/index",
+  "browser": "./lib/index",
+  "homepage": "http://imba.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/somebee/imba-router.git"
+  },
+  "devDependencies": {
+    "express": "^4.16.3",
+    "imba": "github:unicow/imba"
+  }
+}
